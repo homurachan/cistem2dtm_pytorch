@@ -12,6 +12,8 @@ Triton projector 与 correlation multiply 是 Linux/CUDA 上的可选 JIT 加速
 
 项目重点不是重新设计 2DTM，而是把 cisTEM 的科学流程拆成可测试的 Python/PyTorch 模块，并保留后续加入 isSPA filter、第二遍搜索、分类和 CCF-stack 分析的接口。
 
+新版本处理单张micrograph，在一个GPU上消耗大约20秒，正在测试中。
+
 ## 安装
 
 ### 从 wheel 安装
